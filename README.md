@@ -10,3 +10,4 @@ Recorrido de arboles para inteligencia artificial
 - Instalar GraphViz para windows y agregarlo a las variables de entorno del sistema
 [Descargar GraphViz](https://drive.google.com/file/d/1ATowIerbE5rY5Lq2earpWaqyJNL31d9p/view?usp=sharing)
 - Ingresar los nodos separados por comas
+# prueba
