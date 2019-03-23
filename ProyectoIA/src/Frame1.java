@@ -52,6 +52,12 @@ public class Frame1 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel7 = new javax.swing.JPanel();
+        PPI_TITULO = new javax.swing.JLabel();
+        PPI_RECORRIDO = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
+        PAI_TITULO = new javax.swing.JLabel();
+        PAI_RECORRIDO = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -60,13 +66,76 @@ public class Frame1 extends javax.swing.JFrame {
         jPanel4 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel3 = new javax.swing.JPanel();
-        PA_TITULO = new javax.swing.JLabel();
         PA_RECORRIDO = new javax.swing.JLabel();
+        PA_TITULO = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         PP_TITULO = new javax.swing.JLabel();
         PP_RECORRIDO = new javax.swing.JLabel();
+        jPanel8 = new javax.swing.JPanel();
+        PPAI_TITULO = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        TXT_RECORRIDO = new javax.swing.JTextArea();
+        jPanel9 = new javax.swing.JPanel();
+        AI_TITULO = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        AI_RECORRIDO = new javax.swing.JTextArea();
         jScrollPane2 = new javax.swing.JScrollPane();
         imgArbol = new javax.swing.JLabel();
+
+        PPI_TITULO.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        PPI_TITULO.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
+        PPI_RECORRIDO.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PPI_TITULO, javax.swing.GroupLayout.DEFAULT_SIZE, 775, Short.MAX_VALUE)
+                    .addComponent(PPI_RECORRIDO, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(33, 33, 33)
+                .addComponent(PPI_TITULO, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30)
+                .addComponent(PPI_RECORRIDO, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(89, Short.MAX_VALUE))
+        );
+
+        PAI_TITULO.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        PAI_TITULO.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
+        PAI_RECORRIDO.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        PAI_RECORRIDO.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(PAI_TITULO, javax.swing.GroupLayout.DEFAULT_SIZE, 766, Short.MAX_VALUE)
+                .addGap(19, 19, 19))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(PAI_RECORRIDO, javax.swing.GroupLayout.PREFERRED_SIZE, 576, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGap(28, 28, 28)
+                .addComponent(PAI_TITULO, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(32, 32, 32)
+                .addComponent(PAI_RECORRIDO, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(90, Short.MAX_VALUE))
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -88,11 +157,11 @@ public class Frame1 extends javax.swing.JFrame {
 
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        PA_TITULO.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        PA_TITULO.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-
         PA_RECORRIDO.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         PA_RECORRIDO.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
+        PA_TITULO.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        PA_TITULO.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -100,19 +169,18 @@ public class Frame1 extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(PA_TITULO, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(PA_RECORRIDO, javax.swing.GroupLayout.DEFAULT_SIZE, 576, Short.MAX_VALUE))
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PA_TITULO, javax.swing.GroupLayout.DEFAULT_SIZE, 785, Short.MAX_VALUE)
+                    .addComponent(PA_RECORRIDO, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(24, 24, 24)
-                .addComponent(PA_TITULO, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(45, 45, 45)
+                .addGap(30, 30, 30)
+                .addComponent(PA_TITULO, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(31, 31, 31)
                 .addComponent(PA_RECORRIDO, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(81, Short.MAX_VALUE))
+                .addContainerGap(109, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("PRIMERO EN ANCHURA", jPanel3);
@@ -129,10 +197,9 @@ public class Frame1 extends javax.swing.JFrame {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(PP_TITULO, javax.swing.GroupLayout.DEFAULT_SIZE, 576, Short.MAX_VALUE)
-                    .addComponent(PP_RECORRIDO, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PP_TITULO, javax.swing.GroupLayout.DEFAULT_SIZE, 785, Short.MAX_VALUE)
+                    .addComponent(PP_RECORRIDO, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -141,18 +208,78 @@ public class Frame1 extends javax.swing.JFrame {
                 .addComponent(PP_TITULO, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(39, 39, 39)
                 .addComponent(PP_RECORRIDO, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(82, Short.MAX_VALUE))
+                .addContainerGap(110, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("PRIMERO EN PROFUNDIDAD", jPanel5);
 
-        jPanel4.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 300));
+        PPAI_TITULO.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        PPAI_TITULO.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
+        TXT_RECORRIDO.setColumns(20);
+        TXT_RECORRIDO.setRows(5);
+        jScrollPane3.setViewportView(TXT_RECORRIDO);
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PPAI_TITULO, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 775, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(PPAI_TITULO, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(59, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("PROFUNDIDAD ITERATIVA", jPanel8);
+
+        AI_TITULO.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        AI_TITULO.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
+        AI_RECORRIDO.setColumns(20);
+        AI_RECORRIDO.setRows(5);
+        jScrollPane4.setViewportView(AI_RECORRIDO);
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 763, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(AI_TITULO, javax.swing.GroupLayout.PREFERRED_SIZE, 753, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(22, Short.MAX_VALUE))
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addGap(26, 26, 26)
+                .addComponent(AI_TITULO, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 189, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("ANCHURA ITERATIVA", jPanel9);
+
+        jPanel4.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 800, 300));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 615, Short.MAX_VALUE)
+            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 806, Short.MAX_VALUE)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane1)
@@ -186,8 +313,8 @@ public class Frame1 extends javax.swing.JFrame {
                 .addGap(2, 2, 2)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 566, Short.MAX_VALUE)
-                .addGap(6, 6, 6))
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 462, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -204,7 +331,7 @@ public class Frame1 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -220,6 +347,7 @@ public class Frame1 extends javax.swing.JFrame {
         Arbol arbol= new Arbol();
         String datos= txt_Area_nodos.getText();
         String split [] =datos.split(",");
+        String Iterativa="";
         
         for(int i=0; i<split.length; i++){
             arbol.Insertar( Integer.parseInt(split[i]) );
@@ -239,12 +367,34 @@ public class Frame1 extends javax.swing.JFrame {
         arbol.PrimeroProfundidad(arbol.raiz);
         PP_TITULO.setText("PRIMERO EN PROFUNDIDAD");
         PP_RECORRIDO.setText(arbol.RecorridoStr);
+        PPAI_TITULO.setText("PRIMERO PROFUNDIDAD ITERATIVA");
+        TXT_RECORRIDO.setText(arbol.ItsStr);
+        
+        
 
 
 
          arbol.PrimeroAnchura(arbol.raiz);
          PA_TITULO.setText("PRIMERO EN ANCHURA");
          PA_RECORRIDO.setText(arbol.RecorridoStr);
+ 
+         
+        String aux="";
+        for(int i=0; i<255; i++){
+            if(arbol.AnchSTR[i]!= null){ 
+                //System.out.println(arbol.AnchSTR[i]);    
+                aux+= arbol.AnchSTR[i]+"\n";
+                
+            }else{
+                break;
+            }            
+        }
+        
+        
+        AI_TITULO.setText("ANCHURA ITERATIVA");
+        AI_RECORRIDO.setText(aux);
+         
+         
 
         
         
@@ -288,10 +438,18 @@ public class Frame1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextArea AI_RECORRIDO;
+    private javax.swing.JLabel AI_TITULO;
+    private javax.swing.JLabel PAI_RECORRIDO;
+    private javax.swing.JLabel PAI_TITULO;
     private javax.swing.JLabel PA_RECORRIDO;
     private javax.swing.JLabel PA_TITULO;
+    private javax.swing.JLabel PPAI_TITULO;
+    private javax.swing.JLabel PPI_RECORRIDO;
+    private javax.swing.JLabel PPI_TITULO;
     private javax.swing.JLabel PP_RECORRIDO;
     private javax.swing.JLabel PP_TITULO;
+    private javax.swing.JTextArea TXT_RECORRIDO;
     private javax.swing.JLabel imgArbol;
     private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
@@ -299,8 +457,14 @@ public class Frame1 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTextArea txt_Area_nodos;
     // End of variables declaration//GEN-END:variables
