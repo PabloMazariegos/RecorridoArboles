@@ -1,11 +1,14 @@
 import java.io.*;
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.Stack;
+
 
 public class Arbol {
     private String arbolStr="";
     public String RecorridoStr= "";
+    public String ItsStr = "";
+    public String AnchSTR [] = new String[255];
+    public String cad ="";
     class Nodo{
         int valor;
         Nodo izq, der;
@@ -99,6 +102,7 @@ public class Arbol {
     public void  PrimeroProfundidad(Nodo raiz){        
         if(raiz!= null){
             RecorridoStr+=raiz.valor+" -> ";
+            ItsStr +=RecorridoStr +"\n";
             PrimeroProfundidad(raiz.der); 
             PrimeroProfundidad(raiz.izq);
         }        
@@ -108,11 +112,14 @@ public class Arbol {
         LinkedList cola= new LinkedList();
         LinkedList recorrido = new LinkedList();
         Nodo aux= null;
+        int i=0;
         
         cola.addLast(raiz);
         while(cola.size()> 0){
             aux= (Nodo) cola.removeFirst();
             recorrido.addLast(aux.valor);
+            cad+=aux.valor+",";
+            AnchSTR [i] = cad;
             
             if(aux.izq!= null){
                 cola.addLast(aux.izq);
@@ -120,8 +127,10 @@ public class Arbol {
             if(aux.der!= null){
                 cola.addLast(aux.der);
             }
+            i++;
         }
-       RecorridoStr= recorrido.toString();
+       
+        RecorridoStr = recorrido.toString();
        
     }
     
