@@ -118,7 +118,7 @@ public class Arbol {
         while(cola.size()> 0){
             aux= (Nodo) cola.removeFirst();
             recorrido.addLast(aux.valor);
-            cad+=aux.valor+",";
+            cad+=aux.valor+"->";
             AnchSTR [i] = cad;
             
             if(aux.izq!= null){
