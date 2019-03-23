@@ -1,9 +1,11 @@
 import java.io.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Stack;
 
 public class Arbol {
     private String arbolStr="";
+    public String RecorridoStr= "";
     class Nodo{
         int valor;
         Nodo izq, der;
@@ -89,10 +91,39 @@ public class Arbol {
         } catch (Exception ex)  {
             System.out.println(ex);
         }
-        File f= new File("t.txt");
-        f.delete();
+        //File f= new File("t.txt");
+        //f.delete();
     }
-
+    
+    
+    public void  PrimeroProfundidad(Nodo raiz){        
+        if(raiz!= null){
+            RecorridoStr+=raiz.valor+" -> ";
+            PrimeroProfundidad(raiz.der); 
+            PrimeroProfundidad(raiz.izq);
+        }        
+    }
+    
+    public void PrimeroAnchura(Nodo raiz){
+        LinkedList cola= new LinkedList();
+        LinkedList recorrido = new LinkedList();
+        Nodo aux= null;
+        
+        cola.addLast(raiz);
+        while(cola.size()> 0){
+            aux= (Nodo) cola.removeFirst();
+            recorrido.addLast(aux.valor);
+            
+            if(aux.izq!= null){
+                cola.addLast(aux.izq);
+            }
+            if(aux.der!= null){
+                cola.addLast(aux.der);
+            }
+        }
+       RecorridoStr= recorrido.toString();
+       
+    }
     
 
     
