@@ -6,10 +6,15 @@ Recorrido de arboles para inteligencia artificial
 3. Primero en profundidad
 4. Primero en profundidad iterativa
 
-- Pablo Mazariegos
-- Kevin Argueta
-- Julio Pellecer
-- Pablo Zometa
+| INTEGRANTE | CARNÉ |
+|------------|--------|
+| PABLO MAZARIEGOS | 0900-15-9515 |
+| KEVIN ARGUETA  | 0900-15-9846 |
+| PABLO ZOMETA | 0900-15-48 |
+| JULIO PELLECER | 0900-15- |
+
+
+
 
 ---
 
