@@ -6,8 +6,7 @@ Recorrido de arboles para inteligencia artificial
 4. Primero en profundidad iterativa
 
 ---
-## INSTRUCCIONES
-- Instalar GraphViz para windows y agregarlo a las variables de entorno del sistema
-[Descargar GraphViz](https://drive.google.com/file/d/1ATowIerbE5rY5Lq2earpWaqyJNL31d9p/view?usp=sharing)
-- Ingresar los nodos separados por comas
-# prueba
+
+![Captura 1](https://i.imgur.com/lnmUr9Z.jpg)
+![Captura 2](https://i.imgur.com/JcRmVRj.jpg)
+![Captura 3](https://i.imgur.com/vfyMrPS.jpg)
