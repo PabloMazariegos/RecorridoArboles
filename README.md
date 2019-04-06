@@ -1,9 +1,15 @@
 # RECORRIDO DE ARBOLES
+
 Recorrido de arboles para inteligencia artificial
 1. Primero en anchura
 2. Primero en anchura iterativa
 3. Primero en profundidad
 4. Primero en profundidad iterativa
+
+- Pablo Mazariegos
+- Kevin Argueta
+- Julio Pellecer
+- Pablo Zometa
 
 ---
 
